@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,14 @@
 		9A3388EA264266ED0025B252 /* veganBegan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A3388E8264266ED0025B252 /* veganBegan.xcdatamodeld */; };
 		9A3388EC264266EE0025B252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3388EB264266EE0025B252 /* Assets.xcassets */; };
 		9A3388EF264266EE0025B252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3388ED264266EE0025B252 /* LaunchScreen.storyboard */; };
+		9A3388FE264269DD0025B252 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3388FD264269DD0025B252 /* OpenGLES.framework */; };
+		9A338900264269E60025B252 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3388FF264269E60025B252 /* SystemConfiguration.framework */; };
+		9A338902264269ED0025B252 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A338901264269ED0025B252 /* CoreLocation.framework */; };
+		9A338904264269F70025B252 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A338903264269F70025B252 /* QuartzCore.framework */; };
+		9A33890D264271040025B252 /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A33890C264271040025B252 /* DaumMap.framework */; };
+		9A33890E264272A10025B252 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A33890526426A020025B252 /* libc++.tbd */; };
+		9A33890F264272A80025B252 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A33890626426A110025B252 /* libxml2.tbd */; };
+		9A338910264272B10025B252 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A33890726426A190025B252 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,15 @@
 		9A3388EB264266EE0025B252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A3388EE264266EE0025B252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A3388F0264266EE0025B252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A3388FD264269DD0025B252 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9A3388FF264269E60025B252 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9A338901264269ED0025B252 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9A338903264269F70025B252 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9A33890526426A020025B252 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9A33890626426A110025B252 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		9A33890726426A190025B252 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9A33890826426CDD0025B252 /* veganBegan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "veganBegan-Bridging-Header.h"; sourceTree = "<group>"; };
+		9A33890C264271040025B252 /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DaumMap.framework; path = "../../Downloads/IOS_DaumMap_SDK_1.4.0 2/lib/DaumMap.embeddedframework/DaumMap.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A338910264272B10025B252 /* libsqlite3.tbd in Frameworks */,
+				9A33890F264272A80025B252 /* libxml2.tbd in Frameworks */,
+				9A33890E264272A10025B252 /* libc++.tbd in Frameworks */,
+				9A338904264269F70025B252 /* QuartzCore.framework in Frameworks */,
+				9A33890D264271040025B252 /* DaumMap.framework in Frameworks */,
+				9A338902264269ED0025B252 /* CoreLocation.framework in Frameworks */,
+				9A338900264269E60025B252 /* SystemConfiguration.framework in Frameworks */,
+				9A3388FE264269DD0025B252 /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +67,10 @@
 		9A3388D3264266ED0025B252 = {
 			isa = PBXGroup;
 			children = (
+				9A33890826426CDD0025B252 /* veganBegan-Bridging-Header.h */,
 				9A3388DE264266ED0025B252 /* veganBegan */,
 				9A3388DD264266ED0025B252 /* Products */,
+				9A3388F6264268C30025B252 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +95,21 @@
 				9A3388E8264266ED0025B252 /* veganBegan.xcdatamodeld */,
 			);
 			path = veganBegan;
+			sourceTree = "<group>";
+		};
+		9A3388F6264268C30025B252 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A33890C264271040025B252 /* DaumMap.framework */,
+				9A33890726426A190025B252 /* libsqlite3.tbd */,
+				9A33890626426A110025B252 /* libxml2.tbd */,
+				9A33890526426A020025B252 /* libc++.tbd */,
+				9A338903264269F70025B252 /* QuartzCore.framework */,
+				9A338901264269ED0025B252 /* CoreLocation.framework */,
+				9A3388FF264269E60025B252 /* SystemConfiguration.framework */,
+				9A3388FD264269DD0025B252 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,7 +148,7 @@
 				};
 			};
 			buildConfigurationList = 9A3388D7264266ED0025B252 /* Build configuration list for PBXProject "veganBegan" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -288,7 +330,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = veganBegan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -296,6 +343,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.sogang.20181593.veganBegan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/release/Desktop/veganBegan/veganBegan-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,7 +353,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = veganBegan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,6 +366,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.sogang.20181593.veganBegan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/release/Desktop/veganBegan/veganBegan-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -105,6 +105,9 @@
 		F6EDF2512643119B001A924E /* daum_th_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daum_th_line.png; sourceTree = "<group>"; };
 		F6EDF2522643119B001A924E /* map_pin_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_shadow.png; sourceTree = "<group>"; };
 		F6EDF2532643119B001A924E /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaumMap.framework; sourceTree = "<group>"; };
+		9A33890C264271040025B252 /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DaumMap.framework; path = "../../Downloads/IOS_DaumMap_SDK_1.4.0 2/lib/DaumMap.embeddedframework/DaumMap.framework"; sourceTree = "<group>"; };
+		F721958A2650DEEB005D73A8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F721958B2650E07A005D73A8 /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 		9A3388D3264266ED0025B252 = {
 			isa = PBXGroup;
 			children = (
+				F721958B2650E07A005D73A8 /* .gitattributes */,
+				F721958A2650DEEB005D73A8 /* .gitignore */,
 				9A33890826426CDD0025B252 /* veganBegan-Bridging-Header.h */,
 				9A3388DE264266ED0025B252 /* veganBegan */,
 				9A3388DD264266ED0025B252 /* Products */,

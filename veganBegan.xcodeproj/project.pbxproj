@@ -43,6 +43,8 @@
 		9A33890726426A190025B252 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		9A33890826426CDD0025B252 /* veganBegan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "veganBegan-Bridging-Header.h"; sourceTree = "<group>"; };
 		9A33890C264271040025B252 /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DaumMap.framework; path = "../../Downloads/IOS_DaumMap_SDK_1.4.0 2/lib/DaumMap.embeddedframework/DaumMap.framework"; sourceTree = "<group>"; };
+		F721958A2650DEEB005D73A8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F721958B2650E07A005D73A8 /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,8 @@
 		9A3388D3264266ED0025B252 = {
 			isa = PBXGroup;
 			children = (
+				F721958B2650E07A005D73A8 /* .gitattributes */,
+				F721958A2650DEEB005D73A8 /* .gitignore */,
 				9A33890826426CDD0025B252 /* veganBegan-Bridging-Header.h */,
 				9A3388DE264266ED0025B252 /* veganBegan */,
 				9A3388DD264266ED0025B252 /* Products */,

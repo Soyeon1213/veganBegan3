@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80EF086566DFC5E749FFED20 /* Pods_veganBegan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658D62D287F575280F714A5F /* Pods_veganBegan.framework */; };
 		9A3388E0264266ED0025B252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3388DF264266ED0025B252 /* AppDelegate.swift */; };
 		9A3388E2264266ED0025B252 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3388E1264266ED0025B252 /* SceneDelegate.swift */; };
 		9A3388E4264266ED0025B252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3388E3264266ED0025B252 /* ViewController.swift */; };
@@ -49,9 +50,14 @@
 		F6EDF26D2643119B001A924E /* daum_th_line.png in Resources */ = {isa = PBXBuildFile; fileRef = F6EDF2512643119B001A924E /* daum_th_line.png */; };
 		F6EDF26E2643119B001A924E /* map_pin_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = F6EDF2522643119B001A924E /* map_pin_shadow.png */; };
 		F6EDF26F2643119B001A924E /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EDF2532643119B001A924E /* DaumMap.framework */; };
+		F709397726510828007B179A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F709397626510828007B179A /* GoogleService-Info.plist */; };
+		F709397926510A24007B179A /* veganBegan.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = F709397826510A24007B179A /* veganBegan.xcworkspace */; };
+		F709397B2651108A007B179A /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F709397A2651108A007B179A /* DatabaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53B5A7B0A8DF0D297A0654E9 /* Pods-veganBegan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-veganBegan.debug.xcconfig"; path = "Target Support Files/Pods-veganBegan/Pods-veganBegan.debug.xcconfig"; sourceTree = "<group>"; };
+		658D62D287F575280F714A5F /* Pods_veganBegan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_veganBegan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3388DC264266ED0025B252 /* veganBegan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = veganBegan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3388DF264266ED0025B252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A3388E1264266ED0025B252 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +75,7 @@
 		9A33890626426A110025B252 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		9A33890726426A190025B252 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		9A33890826426CDD0025B252 /* veganBegan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "veganBegan-Bridging-Header.h"; sourceTree = "<group>"; };
+		A7E002EA4B84443C7CBBF529 /* Pods-veganBegan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-veganBegan.release.xcconfig"; path = "Target Support Files/Pods-veganBegan/Pods-veganBegan.release.xcconfig"; sourceTree = "<group>"; };
 		F6EDF22F2643119B001A924E /* map_pinup_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pinup_custom@3x.png"; sourceTree = "<group>"; };
 		F6EDF2302643119B001A924E /* map_pin_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_custom.png; sourceTree = "<group>"; };
 		F6EDF2312643119B001A924E /* shadow_balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow_balloon.png; sourceTree = "<group>"; };
@@ -105,7 +112,9 @@
 		F6EDF2512643119B001A924E /* daum_th_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daum_th_line.png; sourceTree = "<group>"; };
 		F6EDF2522643119B001A924E /* map_pin_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_shadow.png; sourceTree = "<group>"; };
 		F6EDF2532643119B001A924E /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaumMap.framework; sourceTree = "<group>"; };
-		9A33890C264271040025B252 /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DaumMap.framework; path = "../../Downloads/IOS_DaumMap_SDK_1.4.0 2/lib/DaumMap.embeddedframework/DaumMap.framework"; sourceTree = "<group>"; };
+		F709397626510828007B179A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F709397826510A24007B179A /* veganBegan.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = veganBegan.xcworkspace; sourceTree = "<group>"; };
+		F709397A2651108A007B179A /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		F721958A2650DEEB005D73A8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F721958B2650E07A005D73A8 /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,21 +132,33 @@
 				9A338900264269E60025B252 /* SystemConfiguration.framework in Frameworks */,
 				F6EDF26F2643119B001A924E /* DaumMap.framework in Frameworks */,
 				9A3388FE264269DD0025B252 /* OpenGLES.framework in Frameworks */,
+				80EF086566DFC5E749FFED20 /* Pods_veganBegan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67D1723BFB6BA3F4A6091308 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53B5A7B0A8DF0D297A0654E9 /* Pods-veganBegan.debug.xcconfig */,
+				A7E002EA4B84443C7CBBF529 /* Pods-veganBegan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9A3388D3264266ED0025B252 = {
 			isa = PBXGroup;
 			children = (
+				F709397826510A24007B179A /* veganBegan.xcworkspace */,
 				F721958B2650E07A005D73A8 /* .gitattributes */,
 				F721958A2650DEEB005D73A8 /* .gitignore */,
 				9A33890826426CDD0025B252 /* veganBegan-Bridging-Header.h */,
 				9A3388DE264266ED0025B252 /* veganBegan */,
 				9A3388DD264266ED0025B252 /* Products */,
 				9A3388F6264268C30025B252 /* Frameworks */,
+				67D1723BFB6BA3F4A6091308 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +173,7 @@
 		9A3388DE264266ED0025B252 /* veganBegan */ = {
 			isa = PBXGroup;
 			children = (
+				F709397626510828007B179A /* GoogleService-Info.plist */,
 				9A3388DF264266ED0025B252 /* AppDelegate.swift */,
 				9A3388E1264266ED0025B252 /* SceneDelegate.swift */,
 				9A3388E3264266ED0025B252 /* ViewController.swift */,
@@ -160,6 +182,7 @@
 				9A3388ED264266EE0025B252 /* LaunchScreen.storyboard */,
 				9A3388F0264266EE0025B252 /* Info.plist */,
 				9A3388E8264266ED0025B252 /* veganBegan.xcdatamodeld */,
+				F709397A2651108A007B179A /* DatabaseManager.swift */,
 			);
 			path = veganBegan;
 			sourceTree = "<group>";
@@ -175,6 +198,7 @@
 				9A338901264269ED0025B252 /* CoreLocation.framework */,
 				9A3388FF264269E60025B252 /* SystemConfiguration.framework */,
 				9A3388FD264269DD0025B252 /* OpenGLES.framework */,
+				658D62D287F575280F714A5F /* Pods_veganBegan.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -245,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A3388F3264266EE0025B252 /* Build configuration list for PBXNativeTarget "veganBegan" */;
 			buildPhases = (
+				827872052860C0B35F024310 /* [CP] Check Pods Manifest.lock */,
 				9A3388D8264266ED0025B252 /* Sources */,
 				9A3388D9264266ED0025B252 /* Frameworks */,
 				9A3388DA264266ED0025B252 /* Resources */,
+				F54DFB1BDAAB604EFBBAD493 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -311,6 +337,7 @@
 				F6EDF26E2643119B001A924E /* map_pin_shadow.png in Resources */,
 				F6EDF2612643119B001A924E /* map_present_tracking.png in Resources */,
 				F6EDF2582643119B001A924E /* detail_button.png in Resources */,
+				F709397726510828007B179A /* GoogleService-Info.plist in Resources */,
 				F6EDF26B2643119B001A924E /* noimage.png in Resources */,
 				F6EDF25D2643119B001A924E /* th_line.png in Resources */,
 				F6EDF2662643119B001A924E /* info_box_tail.png in Resources */,
@@ -323,6 +350,7 @@
 				F6EDF2672643119B001A924E /* noimage256.png in Resources */,
 				F6EDF2562643119B001A924E /* shadow_balloon.png in Resources */,
 				9A3388EC264266EE0025B252 /* Assets.xcassets in Resources */,
+				F709397926510A24007B179A /* veganBegan.xcworkspace in Resources */,
 				9A3388E7264266ED0025B252 /* Main.storyboard in Resources */,
 				F6EDF26D2643119B001A924E /* daum_th_line.png in Resources */,
 				F6EDF2572643119B001A924E /* map_pinup.png in Resources */,
@@ -330,6 +358,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		827872052860C0B35F024310 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-veganBegan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F54DFB1BDAAB604EFBBAD493 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-veganBegan/Pods-veganBegan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-veganBegan/Pods-veganBegan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-veganBegan/Pods-veganBegan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A3388D8264266ED0025B252 /* Sources */ = {
@@ -339,6 +409,7 @@
 				9A3388E4264266ED0025B252 /* ViewController.swift in Sources */,
 				9A3388EA264266ED0025B252 /* veganBegan.xcdatamodeld in Sources */,
 				9A3388E0264266ED0025B252 /* AppDelegate.swift in Sources */,
+				F709397B2651108A007B179A /* DatabaseManager.swift in Sources */,
 				9A3388E2264266ED0025B252 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +552,7 @@
 		};
 		9A3388F4264266EE0025B252 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B5A7B0A8DF0D297A0654E9 /* Pods-veganBegan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
@@ -505,6 +577,7 @@
 		};
 		9A3388F5264266EE0025B252 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E002EA4B84443C7CBBF529 /* Pods-veganBegan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;

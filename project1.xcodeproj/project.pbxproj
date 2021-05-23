@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		D8084856264282280026C444 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8084854264282280026C444 /* Main.storyboard */; };
 		D80848582642822A0026C444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80848572642822A0026C444 /* Assets.xcassets */; };
 		D808485B2642822A0026C444 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80848592642822A0026C444 /* LaunchScreen.storyboard */; };
+		D8CD3F1626599953005E36D6 /* Extension_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CD3F1526599953005E36D6 /* Extension_UIView.swift */; };
+		D8CD3F1A2659B1BC005E36D6 /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = D8CD3F192659B1BC005E36D6 /* Cosmos */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		D80848572642822A0026C444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D808485A2642822A0026C444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D808485C2642822A0026C444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8CD3F1526599953005E36D6 /* Extension_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8CD3F1A2659B1BC005E36D6 /* Cosmos in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +64,7 @@
 				D8084850264282280026C444 /* SceneDelegate.swift */,
 				D8084852264282280026C444 /* ViewController.swift */,
 				D8084854264282280026C444 /* Main.storyboard */,
+				D8CD3F1526599953005E36D6 /* Extension_UIView.swift */,
 				D80848572642822A0026C444 /* Assets.xcassets */,
 				D80848592642822A0026C444 /* LaunchScreen.storyboard */,
 				D808485C2642822A0026C444 /* Info.plist */,
@@ -83,6 +88,9 @@
 			dependencies = (
 			);
 			name = project1;
+			packageProductDependencies = (
+				D8CD3F192659B1BC005E36D6 /* Cosmos */,
+			);
 			productName = project1;
 			productReference = D808484B264282280026C444 /* project1.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +118,9 @@
 				Base,
 			);
 			mainGroup = D8084842264282280026C444;
+			packageReferences = (
+				D8CD3F182659B1BC005E36D6 /* XCRemoteSwiftPackageReference "Cosmos" */,
+			);
 			productRefGroup = D808484C264282280026C444 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,6 +150,7 @@
 			files = (
 				D8084853264282280026C444 /* ViewController.swift in Sources */,
 				D808484F264282280026C444 /* AppDelegate.swift in Sources */,
+				D8CD3F1626599953005E36D6 /* Extension_UIView.swift in Sources */,
 				D8084851264282280026C444 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +353,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D8CD3F182659B1BC005E36D6 /* XCRemoteSwiftPackageReference "Cosmos" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/Cosmos.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 23.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D8CD3F192659B1BC005E36D6 /* Cosmos */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8CD3F182659B1BC005E36D6 /* XCRemoteSwiftPackageReference "Cosmos" */;
+			productName = Cosmos;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D8084843264282280026C444 /* Project object */;
 }

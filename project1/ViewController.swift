@@ -6,18 +6,29 @@
 //
 
 import UIKit
+import Cosmos
 
 class ViewController: UIViewController {
+    
+    //@IBOutlet weak var cosmosView: CosmosView!
+    
+    //var Array = ["페스코", "락토", "비건"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    
-        
-        
-        
+        //picker.delegate = self
+        //picker.dataSource = self
+
+    }
+    /*
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
     }
 
 
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return Array.count
+    }*/
+    
 }
 

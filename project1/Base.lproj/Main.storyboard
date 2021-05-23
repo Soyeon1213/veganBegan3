@@ -48,7 +48,7 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
                                 </state>
                                 <connections>
-                                    <segue destination="8FZ-8R-Kg6" kind="show" id="hwg-r3-K8C"/>
+                                    <segue destination="8FZ-8R-Kg6" kind="show" id="MUN-Pc-5Yq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -215,6 +215,7 @@
                             <constraint firstItem="EkF-CP-3eo" firstAttribute="centerX" secondItem="Vxo-px-eDz" secondAttribute="centerX" id="ynm-lc-Gyr"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="GaC-34-148"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jbt-FY-v2e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

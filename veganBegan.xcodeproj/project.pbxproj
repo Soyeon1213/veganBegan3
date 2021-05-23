@@ -52,6 +52,7 @@
 		F6EDF26F2643119B001A924E /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EDF2532643119B001A924E /* DaumMap.framework */; };
 		F709397726510828007B179A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F709397626510828007B179A /* GoogleService-Info.plist */; };
 		F709397926510A24007B179A /* veganBegan.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = F709397826510A24007B179A /* veganBegan.xcworkspace */; };
+		F709397B2651108A007B179A /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F709397A2651108A007B179A /* DatabaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +114,7 @@
 		F6EDF2532643119B001A924E /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaumMap.framework; sourceTree = "<group>"; };
 		F709397626510828007B179A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F709397826510A24007B179A /* veganBegan.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = veganBegan.xcworkspace; sourceTree = "<group>"; };
+		F709397A2651108A007B179A /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		F721958A2650DEEB005D73A8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F721958B2650E07A005D73A8 /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -180,6 +182,7 @@
 				9A3388ED264266EE0025B252 /* LaunchScreen.storyboard */,
 				9A3388F0264266EE0025B252 /* Info.plist */,
 				9A3388E8264266ED0025B252 /* veganBegan.xcdatamodeld */,
+				F709397A2651108A007B179A /* DatabaseManager.swift */,
 			);
 			path = veganBegan;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				9A3388E4264266ED0025B252 /* ViewController.swift in Sources */,
 				9A3388EA264266ED0025B252 /* veganBegan.xcdatamodeld in Sources */,
 				9A3388E0264266ED0025B252 /* AppDelegate.swift in Sources */,
+				F709397B2651108A007B179A /* DatabaseManager.swift in Sources */,
 				9A3388E2264266ED0025B252 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

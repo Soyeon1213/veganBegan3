@@ -1,10 +1,12 @@
 import UIKit
 import MapKit
 import CoreLocation
+//import Cosmos
 
 
 class ViewController: UIViewController, MTMapViewDelegate {
  //   @IBOutlet var mapView: MTMapView?
+    //@IBOutlet weak var cosmosView: CosmosView!
     var mapView: MTMapView?
     var mapPoint: MTMapPoint?
     var poiItem1: MTMapPOIItem?
@@ -48,3 +50,4 @@ class ViewController: UIViewController, MTMapViewDelegate {
         print("MTMapView update Device Heading (\(headingAngle)) degrees")
     }
 }
+

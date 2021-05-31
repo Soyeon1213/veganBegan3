@@ -45,7 +45,7 @@
 		D8084842264282280026C444 = {
 			isa = PBXGroup;
 			children = (
-				D808484D264282280026C444 /* project1 */,
+				D808484D264282280026C444 /* veganBegan */,
 				D808484C264282280026C444 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,7 +58,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D808484D264282280026C444 /* project1 */ = {
+		D808484D264282280026C444 /* veganBegan */ = {
 			isa = PBXGroup;
 			children = (
 				D808484E264282280026C444 /* AppDelegate.swift */,
@@ -70,7 +70,7 @@
 				D80848592642822A0026C444 /* LaunchScreen.storyboard */,
 				D808485C2642822A0026C444 /* Info.plist */,
 			);
-			path = project1;
+			path = veganBegan;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

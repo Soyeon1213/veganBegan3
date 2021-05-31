@@ -1,10 +1,12 @@
 import UIKit
 import MapKit
 import CoreLocation
+//import Cosmos
 
 
 class ViewController: UIViewController, MTMapViewDelegate {
  //   @IBOutlet var mapView: MTMapView?
+    //@IBOutlet weak var cosmosView: CosmosView!
     var mapView: MTMapView?
     var mapPoint: MTMapPoint?
     var poiItem1: MTMapPOIItem?
@@ -12,7 +14,7 @@ class ViewController: UIViewController, MTMapViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+/*
         mapView = MTMapView(frame: self.view.bounds)
         
         if let mapView = mapView{
@@ -34,8 +36,8 @@ class ViewController: UIViewController, MTMapViewDelegate {
             mapView.add(poiItem1)
        
             self.view.addSubview(mapView)
-            
-        }
+  
+        }*/
     }
     
     func mapView(_ mapView: MTMapView!, updateCurrentLocation location: MTMapPoint!, withAccuracy accuracy: MTMapLocationAccuracy){
@@ -48,3 +50,4 @@ class ViewController: UIViewController, MTMapViewDelegate {
         print("MTMapView update Device Heading (\(headingAngle)) degrees")
     }
 }
+

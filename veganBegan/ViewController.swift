@@ -14,7 +14,7 @@ class ViewController: UIViewController, MTMapViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+/*
         mapView = MTMapView(frame: self.view.bounds)
         
         if let mapView = mapView{
@@ -36,8 +36,8 @@ class ViewController: UIViewController, MTMapViewDelegate {
             mapView.add(poiItem1)
        
             self.view.addSubview(mapView)
-            
-        }
+  
+        }*/
     }
     
     func mapView(_ mapView: MTMapView!, updateCurrentLocation location: MTMapPoint!, withAccuracy accuracy: MTMapLocationAccuracy){

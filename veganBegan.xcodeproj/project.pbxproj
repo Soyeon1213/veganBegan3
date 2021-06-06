@@ -54,6 +54,7 @@
 		F709397726510828007B179A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F709397626510828007B179A /* GoogleService-Info.plist */; };
 		F709397926510A24007B179A /* veganBegan.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = F709397826510A24007B179A /* veganBegan.xcworkspace */; };
 		F709397B2651108A007B179A /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F709397A2651108A007B179A /* DatabaseManager.swift */; };
+		F7A8F8872666B7930009D5DB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A8F8862666B7930009D5DB /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -119,6 +120,7 @@
 		F709397A2651108A007B179A /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		F721958A2650DEEB005D73A8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F721958B2650E07A005D73A8 /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
+		F7A8F8862666B7930009D5DB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 				9A3388DF264266ED0025B252 /* AppDelegate.swift */,
 				9A3388E1264266ED0025B252 /* SceneDelegate.swift */,
 				9A3388E3264266ED0025B252 /* ViewController.swift */,
+				F7A8F8862666B7930009D5DB /* MapViewController.swift */,
 				9A3388E5264266ED0025B252 /* Main.storyboard */,
 				D82D3B76266CA03100A17C36 /* Extension_UIView.swift */,
 				9A3388EB264266EE0025B252 /* Assets.xcassets */,
@@ -410,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A3388E4264266ED0025B252 /* ViewController.swift in Sources */,
+				F7A8F8872666B7930009D5DB /* MapViewController.swift in Sources */,
 				9A3388EA264266ED0025B252 /* veganBegan.xcdatamodeld in Sources */,
 				D82D3B77266CA03100A17C36 /* Extension_UIView.swift in Sources */,
 				9A3388E0264266ED0025B252 /* AppDelegate.swift in Sources */,
@@ -572,6 +576,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.sogang.20181593.veganBegan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "veganBegan-Bridging-Header.h";
@@ -598,6 +603,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.sogang.20181593.veganBegan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "veganBegan-Bridging-Header.h";

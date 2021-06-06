@@ -1,12 +1,12 @@
 {
   "images" : [
     {
-      "filename" : "온실가스-1.png",
+      "filename" : "온실가스.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "온실가스-2.png",
+      "filename" : "온실가스-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

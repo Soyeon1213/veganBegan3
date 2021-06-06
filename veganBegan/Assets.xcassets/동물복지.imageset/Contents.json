@@ -1,16 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "동물복지-1.png",
+      "filename" : "동물복지.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "동물복지-2.png",
+      "filename" : "동물복지-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "동물복지-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

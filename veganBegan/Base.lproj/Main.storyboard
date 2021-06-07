@@ -16,20 +16,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vegan Began" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AfR-eF-u2V">
-                                <rect key="frame" x="105" y="50" width="204" height="43"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="36"/>
+                                <rect key="frame" x="77.333333333333343" y="50" width="259.66666666666663" height="45.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="shadowOffset" width="1" height="1"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZz-u0-6SE">
-                                <rect key="frame" x="107" y="434" width="200" height="78"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZz-u0-6SE">
+                                <rect key="frame" x="74" y="423" width="266" height="94"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Q6B-PW-HVk"/>
                                     <constraint firstAttribute="height" constant="80" id="fVT-So-aOj"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="START" backgroundImage="capsule" catalog="system">
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="28"/>
+                                <state key="normal" title="START" backgroundImage="rectangle">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
                                 </state>
                                 <connections>
@@ -37,20 +38,21 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vegan표지" translatesAutoresizingMaskIntoConstraints="NO" id="qJP-Xy-hEz">
-                                <rect key="frame" x="107" y="153" width="200" height="200"/>
+                                <rect key="frame" x="107" y="155.66666666666666" width="200" height="199.99999999999997"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="Ujt-zr-sgB"/>
                                     <constraint firstAttribute="width" constant="200" id="ikf-m4-lca"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e7f-OL-LLf">
-                                <rect key="frame" x="107" y="534" width="200" height="78"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e7f-OL-LLf">
+                                <rect key="frame" x="74" y="546" width="270" height="88"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="6nQ-kA-ggL"/>
                                     <constraint firstAttribute="width" constant="200" id="8F4-Bd-xNf"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Information" backgroundImage="capsule" catalog="system">
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                <state key="normal" title="Information" backgroundImage="rectangle">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
                                 </state>
                                 <connections>
@@ -74,7 +76,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="73.660714285714278"/>
+            <point key="canvasLocation" x="137.68115942028987" y="73.369565217391312"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3Jt-K0-4oW">
@@ -579,7 +581,7 @@
                                     <constraint firstAttribute="width" constant="108" id="uCS-cg-UDz"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="완료"/>
+                                <state key="normal" title="완료" backgroundImage="rectangle"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                         <real key="value" value="2"/>
@@ -701,7 +703,7 @@
                                     <constraint firstAttribute="width" constant="200" id="sqc-7E-inh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="카테고리">
+                                <state key="normal" title="카테고리" backgroundImage="rectangle">
                                     <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -726,7 +728,7 @@
                                     <constraint firstAttribute="width" constant="200" id="sx4-hm-o5z"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="별점 순">
+                                <state key="normal" title="별점 순" backgroundImage="rectangle">
                                     <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -748,7 +750,7 @@
                                     <constraint firstAttribute="width" constant="200" id="tyW-8M-fdH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="관련도 순">
+                                <state key="normal" title="관련도 순" backgroundImage="rectangle">
                                     <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -1299,7 +1301,7 @@
     </scenes>
     <resources>
         <image name="GoldStarFilled" width="53" height="51"/>
-        <image name="capsule" catalog="system" width="64" height="46"/>
+        <image name="rectangle" width="162" height="94"/>
         <image name="star" catalog="system" width="64" height="58"/>
         <image name="vegan표지" width="1000" height="900"/>
         <image name="동물복지" width="347.33334350585938" height="349.33334350585938"/>

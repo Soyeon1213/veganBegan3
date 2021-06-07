@@ -11,6 +11,9 @@ class ViewController: UIViewController, MTMapViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor(patternImage: UIImage(imageLiteralResourceName: "background2"))
     }
+    
+    
 }
 

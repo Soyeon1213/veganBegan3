@@ -12,6 +12,7 @@ class ViewController: UIViewController, MTMapViewDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.view.backgroundColor = UIColor(patternImage: UIImage(imageLiteralResourceName: "background2"))
+ //       self.presentingViewController?.inputViewController.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "BM DoHyeon OTF", size: 12)!]
     }
     
     

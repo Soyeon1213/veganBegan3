@@ -6,6 +6,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="BMDOHYEON_otf.otf">
+            <string>BMDoHyeon-OTF</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -28,7 +33,7 @@
                                     <constraint firstAttribute="width" constant="200" id="Q6B-PW-HVk"/>
                                     <constraint firstAttribute="height" constant="80" id="fVT-So-aOj"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="28"/>
+                                <fontDescription key="fontDescription" name="BMDoHyeon-OTF" family="BM DoHyeon OTF" pointSize="23"/>
                                 <state key="normal" title="START" backgroundImage="rectangle">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
@@ -50,7 +55,7 @@
                                     <constraint firstAttribute="height" constant="80" id="6nQ-kA-ggL"/>
                                     <constraint firstAttribute="width" constant="200" id="8F4-Bd-xNf"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                <fontDescription key="fontDescription" name="BMDoHyeon-OTF" family="BM DoHyeon OTF" pointSize="23"/>
                                 <state key="normal" title="Information" backgroundImage="rectangle">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
@@ -252,7 +257,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.92076289653778076" green="0.96657603979110718" blue="0.93965035676956177" alpha="0.9999389648" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="f3j-OA-DkG" firstAttribute="leading" secondItem="R0V-ik-lSD" secondAttribute="leading" constant="40" id="0ku-aW-g4G"/>
                             <constraint firstItem="I5I-JV-voP" firstAttribute="top" secondItem="cQh-NZ-uyF" secondAttribute="bottom" constant="10" id="1Ut-77-nt5"/>
@@ -372,42 +377,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="동물 복지 ↑" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eeN-54-6NN">
-                                <rect key="frame" x="147" y="300" width="120" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="동물 복지 ↑" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eeN-54-6NN">
+                                <rect key="frame" x="125" y="288" width="165" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="d9Q-Ur-nDe"/>
                                     <constraint firstAttribute="height" constant="40" id="wKI-Te-kZF"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="BMDoHyeon-OTF" family="BM DoHyeon OTF" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="온실가스" translatesAutoresizingMaskIntoConstraints="NO" id="Dr2-JM-5Ao">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="온실가스" translatesAutoresizingMaskIntoConstraints="NO" id="Dr2-JM-5Ao">
                                 <rect key="frame" x="132" y="120" width="150" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="TVp-Ir-cX2"/>
                                     <constraint firstAttribute="width" constant="150" id="qeK-1l-Jeu"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="동물복지" translatesAutoresizingMaskIntoConstraints="NO" id="SMq-AW-j7f">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="동물복지" translatesAutoresizingMaskIntoConstraints="NO" id="SMq-AW-j7f">
                                 <rect key="frame" x="132" y="360" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="WLL-KT-rAy"/>
                                     <constraint firstAttribute="width" constant="150" id="vre-eq-lVA"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="온실 가스 ↓" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Xc-Rl-Nea">
-                                <rect key="frame" x="147" y="50" width="120" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="온실 가스 ↓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Xc-Rl-Nea">
+                                <rect key="frame" x="147" y="60" width="120" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="jts-k3-bej"/>
                                     <constraint firstAttribute="width" constant="120" id="yxp-UF-GJc"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="BMDoHyeon-OTF" family="BM DoHyeon OTF" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.9207947850227356" green="0.96662479639053345" blue="0.9396892786026001" alpha="0.9995727539" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="SMq-AW-j7f" firstAttribute="centerX" secondItem="SPc-1e-pfK" secondAttribute="centerX" id="PK6-og-Sjz"/>
                             <constraint firstItem="eeN-54-6NN" firstAttribute="centerX" secondItem="SPc-1e-pfK" secondAttribute="centerX" id="S4H-KI-PXC"/>
@@ -424,7 +429,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FSj-iz-dEa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-322" y="1655"/>
+            <point key="canvasLocation" x="-323.1884057971015" y="1654.8913043478262"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="F3o-QX-bui">
@@ -514,7 +519,7 @@
                                     <constraint firstAttribute="width" constant="108" id="NDR-rM-0zJ"/>
                                     <constraint firstAttribute="height" constant="55" id="OLm-pz-pPr"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <fontDescription key="fontDescription" name="BMDoHyeon-OTF" family="BM DoHyeon OTF" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
@@ -535,7 +540,7 @@
                                     <constraint firstAttribute="width" constant="248" id="SjW-Tw-UtL"/>
                                     <constraint firstAttribute="height" constant="55" id="TiW-Re-PWd"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <fontDescription key="fontDescription" name="BMDoHyeon-OTF" family="BM DoHyeon OTF" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
@@ -556,7 +561,7 @@
                                     <constraint firstAttribute="height" constant="55" id="8nr-re-HAX"/>
                                     <constraint firstAttribute="width" constant="248" id="KWZ-fV-5Hc"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <fontDescription key="fontDescription" name="BMDoHyeon-OTF" family="BM DoHyeon OTF" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
@@ -565,9 +570,6 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
@@ -580,8 +582,10 @@
                                     <constraint firstAttribute="height" constant="55" id="A3O-Po-26r"/>
                                     <constraint firstAttribute="width" constant="108" id="uCS-cg-UDz"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="완료" backgroundImage="rectangle"/>
+                                <fontDescription key="fontDescription" name="BMDoHyeon-OTF" family="BM DoHyeon OTF" pointSize="20"/>
+                                <state key="normal" title="완료" backgroundImage="rectangle">
+                                    <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                         <real key="value" value="2"/>
@@ -598,7 +602,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.92069977521896362" green="0.96654945611953735" blue="0.93960243463516235" alpha="0.9991455078" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ke2-8e-6zZ" firstAttribute="centerX" secondItem="9f9-it-IfR" secondAttribute="centerX" id="51N-xz-aiS"/>
                             <constraint firstItem="fj4-0q-ytT" firstAttribute="top" secondItem="nj8-Dw-gKm" secondAttribute="bottom" constant="30" id="BiO-a2-ukZ"/>
@@ -702,9 +706,9 @@
                                     <constraint firstAttribute="height" constant="50" id="mhw-iS-yym"/>
                                     <constraint firstAttribute="width" constant="200" id="sqc-7E-inh"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="BMDoHyeon-OTF" family="BM DoHyeon OTF" pointSize="20"/>
                                 <state key="normal" title="카테고리" backgroundImage="rectangle">
-                                    <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -727,9 +731,9 @@
                                     <constraint firstAttribute="height" constant="50" id="0sC-hL-Xa5"/>
                                     <constraint firstAttribute="width" constant="200" id="sx4-hm-o5z"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="BMDoHyeon-OTF" family="BM DoHyeon OTF" pointSize="20"/>
                                 <state key="normal" title="별점 순" backgroundImage="rectangle">
-                                    <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -749,9 +753,9 @@
                                     <constraint firstAttribute="height" constant="50" id="l2c-O2-nEw"/>
                                     <constraint firstAttribute="width" constant="200" id="tyW-8M-fdH"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="BMDoHyeon-OTF" family="BM DoHyeon OTF" pointSize="20"/>
                                 <state key="normal" title="관련도 순" backgroundImage="rectangle">
-                                    <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -766,7 +770,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.92071682214736938" green="0.96655672788619995" blue="0.93961530923843384" alpha="0.99935913089999995" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="pvo-FC-NHX" firstAttribute="top" secondItem="dRQ-E5-0q0" secondAttribute="bottom" constant="30" id="9JP-sA-l2M"/>
                             <constraint firstItem="VhO-Jp-7Iw" firstAttribute="centerX" secondItem="Ica-IN-RDa" secondAttribute="centerX" id="LAI-Ym-1Xy"/>
@@ -799,7 +803,7 @@
                                     <constraint firstAttribute="width" constant="200" id="XJc-yV-snq"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="한식">
+                                <state key="normal" title="한식" backgroundImage="rectangle">
                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -808,9 +812,6 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
@@ -1304,8 +1305,8 @@
         <image name="rectangle" width="162" height="94"/>
         <image name="star" catalog="system" width="64" height="58"/>
         <image name="vegan표지" width="1000" height="900"/>
-        <image name="동물복지" width="347.33334350585938" height="349.33334350585938"/>
+        <image name="동물복지" width="1042" height="1048"/>
         <image name="스크린샷 2021-06-07 오후 2.56.16" width="1042" height="1726"/>
-        <image name="온실가스" width="280" height="201.33332824707031"/>
+        <image name="온실가스" width="280" height="201.33332824707031"/>
     </resources>
 </document>

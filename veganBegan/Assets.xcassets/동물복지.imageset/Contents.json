@@ -2,7 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "동물복지-4.png",
+      "filename" : "동물복지.png",
       "scale" : "1x"
     },
     {
@@ -12,7 +12,7 @@
     },
     {
       "idiom" : "universal",
-      "filename" : "동물복지-3.png",
+      "filename" : "동물복지-2.png",
       "scale" : "3x"
     }
   ],
